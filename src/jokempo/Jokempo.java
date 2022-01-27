@@ -56,6 +56,7 @@ public class Jokempo {
 			} else if (opcaoDoJogador != 1 || opcaoDoJogador != 2 || opcaoDoJogador != 3 && numeroRandomizado == 1 || numeroRandomizado == 2 || numeroRandomizado == 3)  {
 				System.out.println("A sua escolha foi INVÁLIDA. Você PERDEU!");
 			}
+			leitor.close();
 
 		}
 
